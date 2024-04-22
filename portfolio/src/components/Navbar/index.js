@@ -71,7 +71,7 @@ const NavLink = styled.a`
       border-bottom: 2px solid ${({ theme }) => theme.primary};
     }
 `;
-const GitHubButton = styled.button`
+const GitHubButton = styled.a`
 background-color: transparent;
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
@@ -246,7 +246,7 @@ const Navbar = () => {
             <NavLink href= "#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
-        <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
+        <GitHubButton href="https://github.com/Anubhx" target="_blank">Github Profile</GitHubButton>
         </ButtonContainer>
 
     </NavContainer>
@@ -268,7 +268,7 @@ const Navbar = () => {
         <MobileLink href='#education' onClick={() => {
           setOpen(!open)
         }}>Education</MobileLink>
-        <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+        <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="https://github.com/Anubhx" target="_blank">Github Profile</GitHubButton>
       </MobileMenu>
        ) 
     }
