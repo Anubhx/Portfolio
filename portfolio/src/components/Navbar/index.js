@@ -5,7 +5,6 @@ import {DiCssdeck} from 'react-icons/di';
 // import { Span } from '../HeroSection/HeroElements';
 import { useState } from 'react';
 import { FaBars} from 'react-icons/fa';
-import { Bio } from '../../data/constants';
 // import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
  // Import the 'theme' variable from the appropriate file
