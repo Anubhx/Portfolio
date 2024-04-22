@@ -133,11 +133,11 @@ export const Bio = {
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
         },
-        // {
-        //   name: "Kotlin",
-        //   image:
-        //     "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-        // },
+        {
+          name: "React-Native",
+          image:
+            "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+        },
         // {
         //   name: "XML",
         //   image:
@@ -162,6 +162,11 @@ export const Bio = {
           name: "GitHub",
           image:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        },
+        {
+                name: "MySQL",
+                image:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
 
         {

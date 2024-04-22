@@ -64,7 +64,7 @@ const NavLink = styled.a`
       border-bottom: 2px solid ${({ theme }) => theme.primary};
     }
 `;
-const GitHubButton = styled.a`
+const GitHubButton = styled.button`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
   display: flex;
@@ -112,73 +112,7 @@ const MobileIcon = styled.div`
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
   }
-`
-// const MobileMenu = styled.div`
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     gap: 16px;
-//     position: absolute;
-//     top: 80px;
-//     right: 0;
-//     width: 100%;
-//     padding: 12px 40px 24px 40px;
-//     background: ${({ theme }) => theme.card_light+99};
-//     transition: all 0.6s ease-in-out;
-//     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
-//     border-radius: 0 0 20px 20px;
-//     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-//     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-//     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
-
-// `
-
-// const MobileMenuItems = styled.ul`
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   gap: 32px;
-//   list-style: none;
-//   width: 100%;
-//   height: 100%;
-// `
-
-// const MobileMenuLink = styled.div`
-//   color: ${({ theme }) => theme.text_primary};
-//   font-weight: 500;
-//   cursor: pointer;
-//   transition: all 0.2s ease-in-out;
-//   text-decoration: none;
-//   :hover {
-//     color: ${({ theme }) => theme.primary};
-//   }
-
-//   &.active {
-//     border-bottom: 2px solid ${({ theme }) => theme.primary};
-//   }
-// `;
-
-// const MobileMenuButton = styled.div`
-//   border: 1.8px solid ${({ theme }) => theme.primary};
-//   justify-content: center;
-//   display: flex;
-//   align-items: center;
-//   height: 70%;
-//   border-radius: 20px;
-//   color: ${({ theme }) => theme.primary};
-//   cursor: pointer;
-//   padding: 0 20px;
-//   font-weight: 500;
-//   text-decoration: none;
-//   font-size: 16px;
-//   transition: all 0.6s ease-in-out;
-
-//   :hover {
-//     background: ${({ theme }) => theme.primary};
-//     color: ${({ theme }) => theme.white};
-//   }
-// `;
+`;
 
 
 const Navbar = () => {
@@ -192,7 +126,7 @@ const Navbar = () => {
 
         </NavItems>
         <ButtonContainer>
-            <GitHubButton>GitHub</GitHubButton>
+            <GitHubButton>GitHub Profile</GitHubButton>
         </ButtonContainer>
 
     </NavContainer>
