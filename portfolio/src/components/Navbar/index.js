@@ -234,9 +234,8 @@ const Navbar = () => {
             </NavLogo>
         <MobileIcon>
         <FaBars 
-        onClick={() => setOpen(!open)} />
-        
-        hello</MobileIcon>
+        onClick={() => setOpen(!open)} /> 
+        </MobileIcon>
         <NavItems>
             <NavLink href= "#about">About</NavLink>
             <NavLink href= "#skills">Skills</NavLink>

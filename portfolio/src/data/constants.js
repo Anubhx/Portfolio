@@ -4,6 +4,7 @@ import school1 from '../images/school1.png';
 import school2 from '../images/school2.png';
 import HeroImg from '../images/HeroImage.jpg';
 import language_talk from '../images/language_talk.png';
+import Employee from '../images/Employee.png';
 
 
   /**
@@ -277,7 +278,7 @@ export const Bio = {
       ],
       category: "android app",
       github: "https://github.com/Anubhx/AirBnB-Clone-using-React-Native-and-Expo-",
-     // webapp: "https://trackify.duckdns.org",
+      webapp: "https://github.com/Anubhx/AirBnB-Clone-using-React-Native-and-Expo-",
     },
     {
       id: 0,
@@ -328,8 +329,7 @@ export const Bio = {
       date: "Nov 2023 - Nov 2023",
       description:
       "Employee Pro is a Workforce Management System that I developed using Java, Swing, and MySQL, designed to enhance organizational efficiency. The system features a user-friendly interface with intuitive design for easy navigation and data entry. It includes dynamic employee ID generation for automatic assignment of unique identifiers, facilitating efficient employee tracking. Additionally, the system offers seamless database connectivity with MySQL, ensuring robust data management and operational reliability.",
-      image:
-        "https://private-user-images.githubusercontent.com/80146839/283999865-9c0fe86f-b8e4-4a17-8eec-8d0578a7bcfe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3ODE3MDEsIm5iZiI6MTcxMzc4MTQwMSwicGF0aCI6Ii84MDE0NjgzOS8yODM5OTk4NjUtOWMwZmU4NmYtYjhlNC00YTE3LThlZWMtOGQwNTc4YTdiY2ZlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIyVDEwMjMyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3ZjI5NGFjZjhkZmI0OWU3MzZkY2QxOTkwOGYwMjlkMWYxMzhlMDQ3NjMxZDZkMWZjNjQyYWRjZDAxZDQ4YTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2xx9UypDSWr_Y8WDYw988v84ghfDwRo6a0YCSVDGyiw",
+      image: Employee,      
       tags: [
         "Java",
         "MySQL",
