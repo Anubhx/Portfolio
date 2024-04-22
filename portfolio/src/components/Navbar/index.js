@@ -239,11 +239,11 @@ const Navbar = () => {
         
         hello</MobileIcon>
         <NavItems>
-            <NavLink herf= "#about">About</NavLink>
-            <NavLink herf= "#skills">Skills</NavLink>
-            <NavLink herf= "#experiences">Experiences</NavLink>
-            <NavLink herf= "#projects">Projects</NavLink>
-            <NavLink herf= "#education">Education</NavLink>
+            <NavLink href= "#about">About</NavLink>
+            <NavLink href= "#skills">Skills</NavLink>
+            <NavLink href= "#experience">Experiences</NavLink>
+            <NavLink href= "#projects">Projects</NavLink>
+            <NavLink href= "#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
         <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>

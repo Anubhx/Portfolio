@@ -3,6 +3,7 @@ import uem_logo from '../images/uem_logo.png';
 import school1 from '../images/school1.png';
 import school2 from '../images/school2.png';
 import HeroImg from '../images/HeroImage.jpg';
+import language_talk from '../images/language_talk.png';
 
 
   /**
@@ -284,7 +285,7 @@ export const Bio = {
       date: "Apr 2023 - May 2023",
       description:
        "I conceptualized LanguageTalk, a user-friendly language learning app equipped with AI-driven features for grammar and pronunciation correction, showcasing my proficiency in UX/UI design. For the development of this project, I utilized design tools such as Figma and FigJam, and managed the workflow and documentation using Notion, demonstrating both my design expertise and project management skills.",
-           image:"https://anubhx.github.io/language_talk.png",
+           image: language_talk,
         tags: [
           "Figma",
           "Miro",

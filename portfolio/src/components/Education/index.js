@@ -77,7 +77,7 @@ const TimelineSection = styled.div`
 
 
 
-const index = () => {
+const Education = () => {
     return (
         <Container id="education">
             <Wrapper>
@@ -106,4 +106,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Education
