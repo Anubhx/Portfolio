@@ -6,7 +6,7 @@ import {DiCssdeck} from 'react-icons/di';
 import { useState } from 'react';
 import { FaBars} from 'react-icons/fa';
 import { Bio } from '../../data/constants';
-import { Close, CloseRounded } from '@mui/icons-material';
+// import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
  // Import the 'theme' variable from the appropriate file
  const Nav = styled.div`
@@ -141,7 +141,7 @@ const MobileMenu = styled.div`
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
 
 `;
-const MobileMenuItems = styled.ul`
+ export const MobileMenuItems = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
