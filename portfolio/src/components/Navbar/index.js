@@ -76,7 +76,7 @@ const GitHubButton = styled.button`
   padding: 0 20px;
   font-weight: 500;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   transition: all 0.6s ease-in-out;
     :hover {
       background: ${({ theme }) => theme.primary};
