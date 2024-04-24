@@ -229,7 +229,7 @@ const Navbar = () => {
     <NavContainer>
     <NavLogo to='/'>
                 <a href="/" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-                    <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+                    <DiCssdeck size="3rem" /> <Span>Anubhav Raj</Span>
                 </a>
             </NavLogo>
         <MobileIcon>
