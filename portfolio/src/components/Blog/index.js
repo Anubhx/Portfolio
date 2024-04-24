@@ -1,59 +1,40 @@
-import React from 'react';
-import styled from 'styled-components' ;
+import React, { useState } from 'react';
+//import styled from 'styled-components';
+import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider  , BlogButton} from './BlogStyles';
+import BlogCard from '../Cards/BlogCards'; // Ensure this path is correct for your project structure
+import { BlogData } from '../../data/constants'; // Adjust if necessary to match the actual import path
 
 
-const Span = styled.span`
-overflow: hidden;
-display: -webkit-box;
-max-width: 100%;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
-text-overflow: ellipsis;
-`
-const Card = styled.div`
-    width: 650px;
-    border-radius: 10px;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-    padding: 12px 16px;
-    justify-content: space-between;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    transition: all 0.3s ease-in-out;
-    &:hover{
-        box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
-        transform: translateY(-5px);
-    }
-    @media only screen and (max-width: 768px){
-        padding: 10px;
-        gap: 8px;
-        width: 300px;
-    }
+const Blogs = () => {
+  const [toggle, setToggle] = useState('all');
 
-    &:hover ${Document}{
-        display: flex;
-    }
-
-    &:hover ${Span}{
-        overflow: visible;
-        -webkit-line-clamp: unset;
-
-    }
-    border: 0.1px solid #854CE6;
-`
-const blog = () => {
   return (
-    <Card>
-        
-            <h2>Blog</h2>
-            <h4>Published on 1st Jan 2021</h4>
-        <Span>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </Span>
-    </Card>
-  )
+    <Container id="blogs">
+      <Wrapper>
+        <Title>Blogs</Title>
+        <Desc>Explore a diverse range of topics from UX/UI design to software development through my detailed blog posts.</Desc>
+        <BlogButton href="https://medium.com/@anubhxv" target="_blank">Find me on Medium </BlogButton>
+        <ToggleButtonGroup>
+          <ToggleButton active={toggle === 'all'} onClick={() => setToggle('all')}>All</ToggleButton>
+          <Divider />
+          <ToggleButton active={toggle === 'uxui'} onClick={() => setToggle('uxui')}>UX/UI Design</ToggleButton>
+          <Divider />
+          <ToggleButton active={toggle === 'dev'} onClick={() => setToggle('dev')}>Development</ToggleButton>
+          <Divider />
+          <ToggleButton active={toggle === 'tech'} onClick={() => setToggle('tech')}>Tech Insights</ToggleButton>
+        </ToggleButtonGroup>
+        <CardContainer>
+          {BlogData
+            .filter(blog => toggle === 'all' || blog.category === toggle)
+            .map(blog => (
+              <BlogCard key={blog.id} blog={blog} />
+          ))}
+        </CardContainer>
+    
+      </Wrapper>
+      
+    </Container>
+  );
 }
 
-export default blog
+export default Blogs

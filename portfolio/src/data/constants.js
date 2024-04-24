@@ -355,7 +355,7 @@ export const Bio = {
       title: "What are Dark Patterns and Ethical Design (UX)",
       date: "13 Feb 2024",
       description:
-      "Dark patterns are design practices crafted to deceive or manipulate users into making choices they might not have made if given clear and straightforward options. These can range from misleading language in sign-up forms to making it notoriously difficult to cancel subscriptions.",
+      "Dark patterns are design practices crafted to deceive or manipulate users into making choices they might not have made if given clear and straightforward options.",
             image:
         "https://miro.medium.com/v2/resize:fit:720/format:webp/0*RIo_n3KsrUdD8xf8.png",
       tags: [
@@ -363,8 +363,58 @@ export const Bio = {
         "Ethical Design",
         "Dark Patterns",
       ],
-      category: "design",
+      category: "uxui",
       link: "https://medium.com/@anubhxv/what-are-dark-patterns-and-ethical-design-ux-ceb3346f565a",
+    },
+
+    {
+      id: 1,
+      title: "AI vs Data Analysts in the World of Data Analysis",
+      date: "Aug 28, 2023",
+      description:
+      "The integration of AI into data analysis has revolutionized the way we process, interpret, and extract insights from vast datasets. AI algorithms can sift through immense volumes of data at speeds human analysts could only dream of, identifying patterns, anomalies, and correlations that might go unnoticed by the human eye.",
+                 image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/1*B3Y6selInjGZ9KbFyqO7fg.jpeg",
+      tags: [
+        "UX/UI Design",
+        "Ethical Design",
+        "Dark Patterns",
+      ],
+      category: "tech",
+      link: "https://medium.com/@anubhxv/ai-vs-data-analysts-in-the-world-of-data-analysis-82f005b40b5e",
+    },
+
+    {
+      id: 3,
+      title: "Unveiling the 60–30–10 Rule in UX/UI Design",
+      date: "Jan 4, 2024",
+      description:
+      "As a budding UX designer hailing from the vibrant city of Kolkata, India, with a year of hands-on experience in the field, I’ve come to appreciate the nuanced artistry behind creating visually appealing and user-centric interfaces. One principle that has significantly shaped my approach to design is the 60–30–10 rule,",
+                 image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/0*tMQNKkqpCPl6eD3S.jpg",
+      tags: [
+        "UX/UI Design",
+        "Ethical Design",
+        "Dark Patterns",
+      ],
+      category: "uxui",
+      link: "https://medium.com/@anubhxv/unveiling-the-60-30-10-rule-in-ux-ui-design-5b7c16fa6e3f",
+    },
+
+    {
+      id: 4,
+      title: "Top 6 UX Case Studies That Redefined User Experiences",
+      date: "Jan 6, 2024",
+      description:
+      "Crafting impactful UX case studies is an art that balances meticulous inclusion and intentional exclusion of details. Delving into UX courses can offer valuable insights into the essential components of a compelling case study. A successful case study not only outlines the problem at hand but also incorporates numerical data and statistics, presenting practical solutions that directly tackle the identified issues.",
+                 image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/0*ZS8bnIppAumy8sMv.jpg",
+      tags: [
+        "UX/UI Design",
+        "Case Studies",
+      ],
+      category: "uxui",
+      link: "https://medium.com/@anubhxv/top-6-ux-case-studies-that-redefined-user-experiences-137cfe58d6a1",
     },
     
   ];
