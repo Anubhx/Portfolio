@@ -241,6 +241,7 @@ const Navbar = () => {
             <NavLink href= "#skills">Skills</NavLink>
             <NavLink href= "#experience">Experiences</NavLink>
             <NavLink href= "#projects">Projects</NavLink>
+            <NavLink href= "#blog">Blog</NavLink>
             <NavLink href= "#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>

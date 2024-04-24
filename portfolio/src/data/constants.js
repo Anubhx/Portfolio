@@ -349,3 +349,22 @@ export const Bio = {
     { year: 2023, text: "Started as a Web Dev Intern" },
     // { year: 2021, text: "Started my own platform" },
   ];
+  export const BlogData = [
+    {
+      id: 0,
+      title: "What are Dark Patterns and Ethical Design (UX)",
+      date: "13 Feb 2024",
+      description:
+      "Dark patterns are design practices crafted to deceive or manipulate users into making choices they might not have made if given clear and straightforward options. These can range from misleading language in sign-up forms to making it notoriously difficult to cancel subscriptions.",
+            image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/0*RIo_n3KsrUdD8xf8.png",
+      tags: [
+        "UX/UI Design",
+        "Ethical Design",
+        "Dark Patterns",
+      ],
+      category: "design",
+      link: "https://medium.com/@anubhxv/what-are-dark-patterns-and-ethical-design-ux-ceb3346f565a",
+    },
+    
+  ];
