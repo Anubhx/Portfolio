@@ -93,6 +93,7 @@ function Footer() {
         <NavLink href= "#about">About</NavLink>
         <NavLink href= "#skills">Skills</NavLink>
         <NavLink href= "#experience">Experiences</NavLink>
+        <NavLink href= "#Blog">Blog</NavLink>
         <NavLink href= "#projects">Projects</NavLink>
         <NavLink href= "#education">Education</NavLink>
         </Nav>

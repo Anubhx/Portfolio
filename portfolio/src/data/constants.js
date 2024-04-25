@@ -5,7 +5,12 @@ import school2 from '../images/school2.png';
 import HeroImg from '../images/HeroImage.jpg';
 import language_talk from '../images/language_talk.png';
 import Employee from '../images/Employee.png';
-
+import figma from '../images/icons8-figma-48.png';
+import xd from '../images/icons8-adobe-xd-48.png';
+import miro from '../images/icons8-miro-64.png';
+import git from '../images/icons8-git-48.png';
+import expo from '../images/icons8-adobe-xd-48.png';
+import illustrater from '../images/icons8-adobe-illustrator-48.png';
 
   /**
    * Array of project objects.
@@ -86,7 +91,7 @@ export const Bio = {
         {
           name: "EXPO",
           image:
-            "/assets/ExpoLogo.svg",
+            expo,
         },
       ],
     },
@@ -138,19 +143,25 @@ export const Bio = {
       skills: [
         {
           name: "Figma",
-          image: "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          image: figma,
         },
         {
           name: "Adobe XD",
-          image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          image: xd,
+          
         },
         {
           name: "Miro",
-           // image: "<svg xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"100\" height=\"100\" viewBox=\"0 0 64 64\">",
-           image: "https://di8m9w6rqrh5d.cloudfront.net/JIlYx8qbpWSpOvsR2zvaK74zfLDaj0JO/800_68a36392-5b65-4b72-b6b5-4024b89160ad.png",
+          image: miro, 
+          },
+
+        {
+           name: "Adobe Illustrator",
+           image: illustrater, 
         },
+     
    
+
       ],
     },
     {
@@ -183,18 +194,17 @@ export const Bio = {
       skills: [
         {
           name: "Git",
-          image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-        },
+          image: git,
+         },
         {
           name: "GitHub",
           image:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
         {
-                name: "MySQL",
-                image:
-                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+          name: "MySQL",
+          image:
+           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
 
         {
@@ -348,4 +358,73 @@ export const Bio = {
     { year: 2022, text: "Started Freelancing as a UX dsigner" },
     { year: 2023, text: "Started as a Web Dev Intern" },
     // { year: 2021, text: "Started my own platform" },
+  ];
+  export const BlogData = [
+    {
+      id: 0,
+      title: "What are Dark Patterns and Ethical Design (UX)",
+      date: "13 Feb 2024",
+      description:
+      "Dark patterns are design practices crafted to deceive or manipulate users into making choices they might not have made if given clear and straightforward options.",
+            image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/0*RIo_n3KsrUdD8xf8.png",
+      tags: [
+        "UX/UI Design",
+        "Ethical Design",
+        "Dark Patterns",
+      ],
+      category: "uxui",
+      link: "https://medium.com/@anubhxv/what-are-dark-patterns-and-ethical-design-ux-ceb3346f565a",
+    },
+
+    {
+      id: 1,
+      title: "AI vs Data Analysts in the World of Data Analysis",
+      date: "Aug 28, 2023",
+      description:
+      "The integration of AI into data analysis has revolutionized the way we process, interpret, and extract insights from vast datasets. AI algorithms can sift through immense volumes of data at speeds human analysts could only dream of, identifying patterns, anomalies, and correlations that might go unnoticed by the human eye.",
+                 image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/1*B3Y6selInjGZ9KbFyqO7fg.jpeg",
+      tags: [
+        "UX/UI Design",
+        "Ethical Design",
+        "Dark Patterns",
+      ],
+      category: "tech",
+      link: "https://medium.com/@anubhxv/ai-vs-data-analysts-in-the-world-of-data-analysis-82f005b40b5e",
+    },
+
+    {
+      id: 3,
+      title: "Unveiling the 60–30–10 Rule in UX/UI Design",
+      date: "Jan 4, 2024",
+      description:
+      "As a budding UX designer hailing from the vibrant city of Kolkata, India, with a year of hands-on experience in the field, I’ve come to appreciate the nuanced artistry behind creating visually appealing and user-centric interfaces. One principle that has significantly shaped my approach to design is the 60–30–10 rule,",
+                 image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/0*tMQNKkqpCPl6eD3S.jpg",
+      tags: [
+        "UX/UI Design",
+        "Ethical Design",
+        "Dark Patterns",
+      ],
+      category: "uxui",
+      link: "https://medium.com/@anubhxv/unveiling-the-60-30-10-rule-in-ux-ui-design-5b7c16fa6e3f",
+    },
+
+    {
+      id: 4,
+      title: "Top 6 UX Case Studies That Redefined User Experiences",
+      date: "Jan 6, 2024",
+      description:
+      "Crafting impactful UX case studies is an art that balances meticulous inclusion and intentional exclusion of details. Delving into UX courses can offer valuable insights into the essential components of a compelling case study. A successful case study not only outlines the problem at hand but also incorporates numerical data and statistics, presenting practical solutions that directly tackle the identified issues.",
+                 image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/0*ZS8bnIppAumy8sMv.jpg",
+      tags: [
+        "UX/UI Design",
+        "Case Studies",
+      ],
+      category: "uxui",
+      link: "https://medium.com/@anubhxv/top-6-ux-case-studies-that-redefined-user-experiences-137cfe58d6a1",
+    },
+    
   ];
