@@ -1,5 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
@@ -37,6 +38,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Body>
+        <SpeedInsights />
           <StarCanvas />
           <AnimatePresence>
             <div>
