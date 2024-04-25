@@ -202,9 +202,9 @@ export const Bio = {
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
         {
-                name: "MySQL",
-                image:
-                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+          name: "MySQL",
+          image:
+           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
 
         {
