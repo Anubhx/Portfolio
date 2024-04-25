@@ -120,7 +120,6 @@ import {
     line-height: 32px;
     margin-bottom: 42px;
     color: ${({ theme }) => theme.text_primary + 95};
-  
     @media (max-width: 960px) {
       text-align: center;
     }
@@ -132,51 +131,51 @@ import {
   `;
   
   const ResumeButton = styled.a`
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-  
-    width: 95%;
-    max-width: 300px;
-    text-align: center;
-    padding: 16px 0;
-  
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(
-      225deg,
-      hsla(271, 100%, 50%, 1) 0%,
-      hsla(294, 100%, 50%, 1) 100%
-    );
-    background: -moz-linear-gradient(
-      225deg,
-      hsla(271, 100%, 50%, 1) 0%,
-      hsla(294, 100%, 50%, 1) 100%
-    );
-    background: -webkit-linear-gradient(
-      225deg,
-      hsla(271, 100%, 50%, 1) 0%,
-      hsla(294, 100%, 50%, 1) 100%
-    );
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+
+  width: 95%;
+  max-width: 300px;
+  text-align: center;
+  padding: 16px 0;
+
+  background: hsla(14, 100%, 67%, 1); /* Starting color */
+  background: linear-gradient(
+    225deg,
+    hsla(14, 100%, 67%, 1) 0%, /* Coral */
+    hsla(14, 100%, 57%, 1) 100% /* Darker shade of coral */
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(14, 100%, 67%, 1) 0%, /* Coral */
+    hsla(14, 100%, 57%, 1) 100% /* Darker shade of coral */
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(14, 100%, 67%, 1) 0%, /* Coral */
+    hsla(14, 100%, 57%, 1) 100% /* Darker shade of coral */
+  );
+  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
     box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 20px;
-  
-       &:hover {
-          transform: scale(1.05);
-      transition: all 0.4s ease-in-out;
-      box-shadow:  20px 20px 60px #1F2634,
-      filter: brightness(1);
-      }    
-      
-      
-      @media (max-width: 640px) {
-          padding: 12px 0;
-          font-size: 18px;
-      } 
-      color: white;
-  `;
+    filter: brightness(1.1);
+  }    
+    
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
+`;
+
   
   const Img = styled.img`
     border-radius: 50%;
@@ -229,7 +228,7 @@ import {
             <HeroInnerContainer>
               <HeroLeftContainer>
                 <motion.div {...headTextAnimation}>
-                  <Title>
+                  <Title >
                     Hi, I am <br /> {Bio.name}
                   </Title>
                   <TextLoop>
@@ -247,10 +246,10 @@ import {
                 </motion.div>
   
                 <motion.div {...headContentAnimation}>
-                  <SubTitle>{Bio.description}</SubTitle>
+                  <SubTitle style={{color: '#C7DDFA'}}  >{Bio.description}</SubTitle>
                 </motion.div>
   
-                <ResumeButton href={Bio.resume} target="_blank">
+                <ResumeButton  href={Bio.resume} target="_blank">
                   Check Resume
                 </ResumeButton>
               </HeroLeftContainer>
