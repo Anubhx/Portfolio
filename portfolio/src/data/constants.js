@@ -5,7 +5,12 @@ import school2 from '../images/school2.png';
 import HeroImg from '../images/HeroImage.jpg';
 import language_talk from '../images/language_talk.png';
 import Employee from '../images/Employee.png';
-
+import figma from '../images/icons8-figma-48.png';
+import xd from '../images/icons8-adobe-xd-48.png';
+import miro from '../images/icons8-miro-64.png';
+import git from '../images/icons8-git-48.png';
+import expo from '../images/icons8-adobe-xd-48.png';
+import illustrater from '../images/icons8-adobe-illustrator-48.png';
 
   /**
    * Array of project objects.
@@ -86,7 +91,7 @@ export const Bio = {
         {
           name: "EXPO",
           image:
-            "/assets/ExpoLogo.svg",
+            expo,
         },
       ],
     },
@@ -138,19 +143,25 @@ export const Bio = {
       skills: [
         {
           name: "Figma",
-          image: "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          image: figma,
         },
         {
           name: "Adobe XD",
-          image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          image: xd,
+          
         },
         {
           name: "Miro",
-           // image: "<svg xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"100\" height=\"100\" viewBox=\"0 0 64 64\">",
-           image: "https://di8m9w6rqrh5d.cloudfront.net/JIlYx8qbpWSpOvsR2zvaK74zfLDaj0JO/800_68a36392-5b65-4b72-b6b5-4024b89160ad.png",
+          image: miro, 
+          },
+
+        {
+           name: "Adobe Illustrator",
+           image: illustrater, 
         },
+     
    
+
       ],
     },
     {
@@ -183,9 +194,8 @@ export const Bio = {
       skills: [
         {
           name: "Git",
-          image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-        },
+          image: git,
+         },
         {
           name: "GitHub",
           image:
