@@ -43,7 +43,8 @@ function App() {
           <StarCanvas />
           <AnimatePresence>
             <div>
-              <HeroSection />
+            
+             <HeroSection /> 
               <Wrapper>
                 <Skills />
                 <Experience />
@@ -51,7 +52,7 @@ function App() {
               </Wrapper>
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
-                <Resume/>
+                
                 <Education />
                 <Contact />
               </Wrapper>

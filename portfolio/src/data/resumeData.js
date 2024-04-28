@@ -1,3 +1,4 @@
+import HeroImg from '../images/HeroImage.jpg';
 export const resumeData = [
 
     {
@@ -45,6 +46,12 @@ export const resumeData = [
         title : "Anubhav Raj",
         links : [
             {
+                title : "Portfolio",
+                url : "https://anubhx.github.io/",
+                img: HeroImg,
+
+            },
+            {
                 title: "LinkedIn",
                 url: "https://www.linkedin.com/in/anubhax/",
                 img : "https://img.icons8.com/color/48/linkedin.png",
@@ -55,12 +62,7 @@ export const resumeData = [
                 img:"https://img.icons8.com/ios-filled/50/github.png" ,
 
             },
-            {
-                title: "Email: anubhav.raj.srivastav27@gmail.com",
-                url: "mailto:anubhav.raj.srivastav27@gmail.com",
-                img:"https://img.icons8.com/ios-filled/50/github.png" ,
-
-            },
+           
 /*                    "Email: anubhav.raj.srivastav27@gmail.com",
                 "Phone: +91 6200107977",
                 "Location: Kolkata, India",
@@ -70,5 +72,50 @@ export const resumeData = [
 
         ]
 },
-  ]
+  ];
+    export const Email_Phone = {
+        title: "Contact Information",
+        links: [
+        {
+            title: "Email: anubhav.raj.srivastav27@gmail.com",
+            url: "mailto:anubhav.raj.srivastav27@gmail.com",
+            img:"https://img.icons8.com/ios-filled/50/github.png" ,
+
+        },
+        {
+            title: "Phone No: +91 6200107977",
+            url: "mailto:anubhav.raj.srivastav27@gmail.com",
+            img:"https://img.icons8.com/ios-filled/50/github.png" ,
+
+        },
+        ]
+    };
   
+    export const Information =[
+        {
+            title : "Contact Information",
+            links : [
+                {
+                    title: "Email: anubhav.raj.srivastav27@gmail.com",
+                    url: "mailto:anubhav.raj.srivastav27@gmail.com",
+                    img:"https://img.icons8.com/ios-filled/50/github.png" ,
+
+    
+                },
+                {
+                    title: "Phone No: +91 6200107977",
+                    url: "mailto:anubhav.raj.srivastav27@gmail.com",
+                    img:"https://img.icons8.com/ios-filled/50/github.png" ,
+                },
+               
+               
+    /*                    "Email: anubhav.raj.srivastav27@gmail.com",
+                    "Phone: +91 6200107977",
+                    "Location: Kolkata, India",
+                    "LinkedIn: linkedin.com/in/anubhax",
+                    "GitHub: github.com/Anubhx", */
+                    
+    
+            ]
+    },
+      ];

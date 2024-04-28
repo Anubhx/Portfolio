@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Tilt } from "react-tilt";
-import { resumeData , data } from "../../data/resumeData";
-import { experiences , education  } from "../../data/constants"; // assuming you have a file for resume data
+import { resumeData , data  , Email_Phone , Information} from "../../data/resumeData";
+import { experiences , education , skills } from "../../data/constants"; // assuming you have a file for resume data
 import ExperienceCard from "../Cards/ExperienceCard";
 
 const Container = styled.div`
@@ -20,9 +20,9 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+ 
   max-width: 1100px;
-  gap: 12px;
+  gap: 0px;
   @media (max-width: 950px) {
     flex-direction: column;
   }
@@ -137,13 +137,13 @@ const Span = styled.div`
 const Skills = styled.div`
   width: 100%;
   display: flex;
-  gap: 12px;
+  gap: 1px;
   margin-top: -10px;
 `;
 const Skill = styled.div`
-  font-size: 15px;
-  font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 99};
+  font-size: 10px;
+  font-weight: 300;
+  color: ${({ theme }) => theme.text_primary };
   @media only screen and (max-width: 768px) {
     font-size: 12px;
   }
@@ -167,8 +167,27 @@ width: 24px;
   height: 24px;
 `;
 const ResumeCardName = styled.div`
- width: 100%;
-max-width: 500px;
+ width: 500px;
+ 
+background-color: rgba(17, 25, 40, 0.83);
+border: 1px solid rgba(255, 255, 255, 0.125);
+box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+border-radius: 16px;
+padding: 18px 36px;
+
+fontcolor: ${({ theme }) => theme.text_primary};
+@media (max-width: 768px) {
+  max-width: 400px;
+  padding: 10px 36px;
+}
+@media (max-width: 500px) {
+  max-width: 330px;
+  padding: 10px 36px;
+}
+`;
+export const EmailPhoneCard= styled.div`
+width: 400px;
+
 background-color: rgba(17, 25, 40, 0.83);
 border: 1px solid rgba(255, 255, 255, 0.125);
 box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
@@ -186,6 +205,58 @@ fontcolor: ${({ theme }) => theme.text_primary};
 }
 `;
 
+const SkillTitle = styled.div`
+  font-size: 18px;
+  font-weight: 500;
+  font-style: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  color: ${({ theme }) => theme.text_secondary + 99};
+`;
+
+const SkillList = styled.div`
+  display: flex;
+  justify-content: left;
+  
+  gap: 5px;
+  margin-bottom: 5px;
+`;
+const SkillItem = styled.div`
+  font-size: 16px;
+
+  font-weight: 300;
+  color: ${({ theme }) => theme.text_primary + 80};
+  border: 1px solid ${({ theme }) => theme.text_primary + 80};
+  border-radius: 12px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  @media (max-width: 500px) {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+`;
+
+const SkillsContainer = styled.div`
+  width: 1100px;
+  display: flex;
+  flex-wrap: left;
+  margin-top: 10px;
+  gap: 50px;
+  justify-content: left;
+`;
+const SkillImage = styled.img`
+  width: 24px;
+  height: 24px;
+`;
+
 const Resume = () => {
   return (
     <Container>
@@ -194,6 +265,7 @@ const Resume = () => {
         <SectionContainer> 
 
         {data.map((section, index) => (
+            // Portfolio, LinkedIn, GitHub
             <Tilt key={index}>
               <ResumeCardName>
                 <ResumeCardTitle>{section.title}</ResumeCardTitle>
@@ -208,9 +280,52 @@ const Resume = () => {
               </ResumeCardName>
             </Tilt>
           ))}
+        {Information.map((section, index) => (
+             // Email and Phone
+            <Tilt key={index}>
+              <EmailPhoneCard>
+                <ResumeCardTitle>{section.title}</ResumeCardTitle>
+              {section.links.map((item, itemIndex) => (
+                    <><Image src={item.img} />
+                    <Item key={itemIndex}>
+                    {item.title}</Item>
+                    </>  
+
+                  //<Item key={itemIndex}>{item}</Item>
+                ))}
+              </EmailPhoneCard>
+            </Tilt>
+          ))}
+
+         <Wrapper>
+         <Title>Skill Summary</Title>
+          {skills.map((skill, index) => (
+    // Skills
+    
+            <Tilt>
+                <SkillsContainer>
+              <Skill key={`skill-${index}`}>
+                <SkillTitle>{skill.title}</SkillTitle>
+                <SkillList>
+                  {skill.skills.map((item, index_x) => (
+                    <SkillItem key={`skill-x-${index_x}`}>
+                      <SkillImage src={item.image} />
+                      {item.name}
+                    </SkillItem>
+                  ))}
+                </SkillList>
+              </Skill>
+              </SkillsContainer>
+            </Tilt>
+            
+          ))}
+         </Wrapper>
+
+
           <ResumeCardEdu>
             <ResumeCardTitle>Education</ResumeCardTitle>
           {education.map((education, index) => (
+            // Education
             <Tilt>
                 <ResumeCard key={`education-${index}`} > 
                 <ImageExp src={education.img} />
