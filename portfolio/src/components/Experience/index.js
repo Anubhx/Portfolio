@@ -4,7 +4,7 @@ import { experiences } from "../../data/constants";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import ExperienceCard from '../Cards/ExperienceCard';
-
+import StarCanvas from "../canvas/Stars";
 const Container = styled.div`
 margin-top: 100px;
 display: flex;
@@ -53,6 +53,8 @@ const Desc = styled.div`
 const Experience = () => {
   return (
     <Container id="Experience">
+      <StarCanvas />
+      
       <Wrapper>
         <Title>Experience</Title>
         <Desc

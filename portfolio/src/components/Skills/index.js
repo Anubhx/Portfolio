@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { skills } from "../../data/constants";
 import { Tilt } from "react-tilt";
-
+import StarCanvas from "../canvas/Stars";
 const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -120,6 +120,7 @@ const SkillImage = styled.img`
 const Skills = () => {
   return (
     <Container id="Skills">
+      
       <Wrapper>
         <Title>Skills</Title>
         <Desc

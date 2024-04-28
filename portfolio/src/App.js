@@ -36,20 +36,24 @@ function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <ThemeProvider theme={darkTheme}>
+     
       <BrowserRouter>
         <Navbar />
         <Body>
+        <StarCanvas />
         <SpeedInsights />
-          <StarCanvas />
+         
           <AnimatePresence>
             <div>
             
              <HeroSection /> 
               <Wrapper>
+
                 <Skills />
                 <Experience />
                 <Blogs/>
               </Wrapper>
+              
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
                 
