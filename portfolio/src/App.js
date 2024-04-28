@@ -19,6 +19,7 @@ import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import Blogs from "./components/Blog/index.js";
 import { AnimatePresence } from "framer-motion";
+import Resume from "./components/Resume/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -50,6 +51,7 @@ function App() {
               </Wrapper>
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
+                <Resume/>
                 <Education />
                 <Contact />
               </Wrapper>
