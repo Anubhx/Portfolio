@@ -15,6 +15,7 @@
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "@types/three": "^0.163.0",
+    "@vercel/speed-insights": "^1.0.10",
     "emailjs": "^4.0.2",
     "framer-motion": "^11.1.7",
     "gh-pages": "^3.2.3",

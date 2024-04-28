@@ -1,5 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
@@ -18,6 +19,7 @@ import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import Blogs from "./components/Blog/index.js";
 import { AnimatePresence } from "framer-motion";
+import Resume from "./components/Resume/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -37,10 +39,12 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Body>
+        <SpeedInsights />
           <StarCanvas />
           <AnimatePresence>
             <div>
-              <HeroSection />
+            
+             <HeroSection /> 
               <Wrapper>
                 <Skills />
                 <Experience />
@@ -48,6 +52,7 @@ function App() {
               </Wrapper>
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
+                
                 <Education />
                 <Contact />
               </Wrapper>
