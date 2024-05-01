@@ -32,7 +32,6 @@ My Portfolio is developed using React.js and serves as a digital platform to dis
 - **JavaScript** - Adds interactivity to web applications.
 - **Styled-Components** - Used for styling applications within JavaScript code.
 - **Git** - Version control system for tracking changes.
-- **GitHub Pages** - For hosting and deploying the portfolio.
 
 ## Installation
 To set up this portfolio locally, follow these steps:
