@@ -40,3 +40,21 @@ cd anubhav-portfolio
 npm install
 npm start
 ```
+
+Visit http://localhost:3000 in your browser to view the portfolio.
+
+## Usage
+After installation, you can explore various sections like About Me, Projects, and Contact. Each section provides detailed information respective to its title.
+
+## Contributing
+Interested in contributing? Great! Here's how you can:
+
+fork the repository
+```bash
+git checkout -b feature-yourfeature
+git commit -m 'Add your feature'
+git push origin feature-yourfeature
+create a pull request
+```
+License
+This project is open-sourced under the MIT License.
