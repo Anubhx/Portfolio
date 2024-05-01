@@ -3,7 +3,10 @@
 Welcome to my portfolio on GitHub! This repository contains the source code for my personal portfolio, which showcases my skills, projects, and professional experiences as a web developer.
 
 **Live Website:** [Visit My Portfolio](https://anubhavportfolio.vercel.app/)
+
+
 ![Home](screenshots/home.png)
+
 ## Table of Contents
 - Introduction
 - Features
