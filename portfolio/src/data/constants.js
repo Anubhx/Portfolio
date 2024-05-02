@@ -442,7 +442,7 @@ export const Bio = {
       ],
       category: "dev",
 
-      link: "https://anubhxv.medium.com/a-beginners-guide-to-react-native-for-ux-designers-55b268992e35a",
+      link: "https://anubhxv.medium.com/a-beginners-guide-to-react-native-for-ux-designers-55b268992e35",
     },
 
     
