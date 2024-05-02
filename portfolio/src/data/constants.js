@@ -426,6 +426,25 @@ export const Bio = {
       category: "uxui",
       link: "https://medium.com/@anubhxv/top-6-ux-case-studies-that-redefined-user-experiences-137cfe58d6a1",
     },
+
+    {
+      id: 5,
+      title: "A Beginner’s Guide to React Native for UX Designers",
+      date: "02 Feb 2024",
+      description:
+      "In the swiftly evolving realm of mobile app development, React Native emerges as a beacon for developers and UX designers aiming to craft seamless and efficient cross-platform applications. As a skilled UX designer diving into the technical facets of React and React Native, I’ve embarked on a journey to master these tools, enhancing my ability to deliver more cohesive user experiences across platforms. This article aims to demystify React Native for UX designers who are new to the platform, providing a practical guide through its core components, styling, and more",
+            image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/1*Sjkbmpu_77dkrM5dO-Creg.png",
+      tags: [
+        "UX/UI Design",
+        "React Native",
+        "Guide",
+      ],
+      category: "dev",
+
+      link: "https://anubhxv.medium.com/a-beginners-guide-to-react-native-for-ux-designers-55b268992e35a",
+    },
+
     
   ];
 
