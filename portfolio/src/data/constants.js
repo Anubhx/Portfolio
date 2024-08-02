@@ -272,6 +272,27 @@ export const Bio = {
 
   export const projects = [
     {
+      id: 10,
+      title: "Smart ATS Analyzer",
+      date: "July 2024",
+      description:
+        "The Smart ATS Analyzer is an automated tool engineered for comprehensive resume evaluations and keyword analysis using Google Gemini Pro. It features a user-friendly interface built with Streamlit and includes PDF processing functionality to extract text from uploaded resumes and generate detailed evaluation reports. Additionally, it implements secure environment management by handling API keys and environment variables using the dotenv package.",
+      image:
+        "https://github.com/Anubhx/Smart-ATS-Analyzer/raw/main/image01.png?raw=true",
+      tags: [
+        "Python",
+        "Streamlit",
+        "Google Gemini Pro",
+        "PyPDF2",
+        "FPDF",
+        "dotenv"
+      ],
+      category: "web app",
+      webapp: "https://smart-ats-analyzer-by-anubhav.streamlit.app/",
+      github: "https://github.com/Anubhx/Smart-ATS-Analyzer"
+    },
+    
+    {
       id: 9,
       title: "React Native AirBnB Clone with Clerk",
       date: "April 2024 - Jul 2024",
