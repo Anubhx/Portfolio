@@ -227,6 +227,7 @@ const Navbar = () => {
           setOpen(!open)
         }}>Education</MobileLink>
         <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="https://github.com/Anubhx" target="_blank">Github Profile</GitHubButton>
+        <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="https://www.behance.net/anubhavraj1" target="_blank">Behance Profile</GitHubButton>
       </MobileMenu>
        ) 
     }
