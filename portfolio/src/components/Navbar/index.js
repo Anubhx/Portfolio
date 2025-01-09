@@ -201,6 +201,9 @@ const Navbar = () => {
         <ButtonContainer>
         <GitHubButton href="https://github.com/Anubhx" target="_blank">Github Profile</GitHubButton>
         </ButtonContainer>
+        <ButtonContainer>
+        <GitHubButton href="https://www.behance.net/anubhavraj1" target="_blank">Behance Profile</GitHubButton>
+        </ButtonContainer>
 
     </NavContainer>
     { open && (
