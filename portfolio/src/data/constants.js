@@ -1,5 +1,7 @@
 
 import uem_logo from '../images/uem_logo.png';
+
+
 import school1 from '../images/school1.png';
 import school2 from '../images/school2.png';
 import HeroImg from '../images/HeroImage.jpg';
@@ -43,7 +45,7 @@ export const Bio = {
       "Hey! 👋 As a UX enthusiast with a B.Tech in CSE, I wield Adobe XD, Figma, React Native, React and Android Studio  like a pro. I'm all about user research and design thinking, channeling my inner Sherlock Holmes. Let's team up and create innovative, rockstar experiences! 🚀🎨",
     github: "https://github.com/Anubhx",
     resume:
-      "https://drive.google.com/file/d/19U2vQvmAc6UEUjvx75QESBXSzFeZk1_6/view?usp=sharing",
+      "https://drive.google.com/file/d/1J47dTPjIljQP8FI9GnqwGgtPRLZBjl86/view?usp=sharingg",
     linkedin: "https://www.linkedin.com/in/anubhax/",
     twitter: "https://twitter.com/anubhavRaj0",
     insta: "https://www.instagram.com/anubhax.27/",
@@ -236,7 +238,23 @@ export const Bio = {
       ],
       doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
-    
+    {
+  id: 1,
+  img: "https://images.seeklogo.com/logo-png/61/1/ltimindtree-logo-png_seeklogo-613672.png",
+  role: "Graduate Engineer Trainee",
+  company: "LTIMindtree",
+  date: "June 2025 - Present",
+  desc: "Working as a Graduate Engineer Trainee, focusing on software development, real-time project training, and mastering technologies such as PostgreSQL, Java, and cloud platforms like Azure. Contributing to collaborative projects and enhancing problem-solving, adaptability, and technical proficiency.",
+  skills: [
+    "Python",
+    "PostgreSQL",
+    "Cloud Computing (Azure)",
+    "Problem-Solving",
+    "Team Collaboration"
+  ],
+  doc: "https://github.com/Anubhx/Images-/blob/afb21e4a9617c209c12a8fe6256911d5827a75d2/ltimindtree_latam_logo.jpeg"
+}
+
   ];
   
   export const education = [

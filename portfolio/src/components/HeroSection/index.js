@@ -13,7 +13,7 @@ import {
     headTextAnimation,
   } from "../../utils/motion";
   import StarCanvas from "../canvas/Stars";
-  
+ import { GitHubButton } from '../Navbar/NavbarStyledComponent'; 
   const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
@@ -137,7 +137,7 @@ import {
   text-decoration: none;
 
   width: 95%;
-  max-width: 300px;
+  max-width: 3000px;
   text-align: center;
   padding: 16px 0;
 
@@ -171,7 +171,7 @@ import {
   }    
     
   @media (max-width: 640px) {
-    padding: 12px 0;
+    padding: 50px 0;
     font-size: 18px;
   }
 `;
@@ -249,9 +249,9 @@ import {
                   <SubTitle style={{color: '#C7DDFA'}}  >{Bio.description}</SubTitle>
                 </motion.div>
   
-                <ResumeButton  href={Bio.resume} target="_blank">
+                <GitHubButton  href={Bio.resume} target="_blank">
                   Check Resume
-                </ResumeButton>
+                </GitHubButton>
               </HeroLeftContainer>
               <HeroRightContainer>
                 <motion.div {...headContentAnimation}>
