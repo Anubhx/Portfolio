@@ -225,7 +225,7 @@ export const Bio = {
   
   export const experiences = [
     {
-      id: 0,
+      id: 1,
       img: "https://yt3.ggpht.com/a/AATXAJyMa1Do0gFwcjdCWGAOMekO0n6n6tcxO1EvDQ=s900-c-k-c0xffffffff-no-rj-mo",
       role: "Web developer Intern",
       company: "Vedantu",
@@ -239,7 +239,7 @@ export const Bio = {
       doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     {
-  id: 1,
+  id: 0,
   img: "https://images.seeklogo.com/logo-png/61/1/ltimindtree-logo-png_seeklogo-613672.png",
   role: "Graduate Engineer Trainee",
   company: "LTIMindtree",
