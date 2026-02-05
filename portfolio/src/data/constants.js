@@ -223,9 +223,9 @@ export const Bio = {
     },
   ];
   
-  export const experiences = [
+export const experiences = [
     {
-      id: 1,
+      id: 0,
       img: "https://yt3.ggpht.com/a/AATXAJyMa1Do0gFwcjdCWGAOMekO0n6n6tcxO1EvDQ=s900-c-k-c0xffffffff-no-rj-mo",
       role: "Web developer Intern",
       company: "Vedantu",
@@ -238,23 +238,20 @@ export const Bio = {
       ],
       doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
-    
-  {
-  id: 0,
+    {
+  id: 1,
   img: "https://images.seeklogo.com/logo-png/61/1/ltimindtree-logo-png_seeklogo-613672.png",
-  role: "Software Engineer",
+  role: "Graduate Engineer Trainee",
   company: "LTIMindtree",
   date: "June 2025 - Present",
-  desc: "Working as a Software Engineer at LTIMindtree, contributing to the design and maintenance of PostgreSQL databases and the development of cloud-ready APIs and internal dashboards. Actively developing API endpoints using Python and FastAPI, deploying scalable solutions on Azure, and collaborating in an agile team to improve deployment efficiency and overall system performance.",
+  desc: "Working as a Graduate Engineer Trainee, focusing on software development, real-time project training, and mastering technologies such as PostgreSQL, Java, and cloud platforms like Azure. Contributing to collaborative projects and enhancing problem-solving, adaptability, and technical proficiency.",
   skills: [
     "Python",
     "PostgreSQL",
-    "FastAPI",
     "Cloud Computing (Azure)",
-    "API Development",
-    "Agile Collaboration"
+    "Problem-Solving",
+    "Team Collaboration"
   ],
-
   doc: "https://github.com/Anubhx/Images-/blob/afb21e4a9617c209c12a8fe6256911d5827a75d2/ltimindtree_latam_logo.jpeg"
 }
 
