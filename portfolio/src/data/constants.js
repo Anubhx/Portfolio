@@ -253,7 +253,7 @@ export const Bio = {
     "Cloud Computing (Azure)",
     "API Development",
     "Agile Collaboration"
-  ]
+  ],
 
   doc: "https://github.com/Anubhx/Images-/blob/afb21e4a9617c209c12a8fe6256911d5827a75d2/ltimindtree_latam_logo.jpeg"
 }
